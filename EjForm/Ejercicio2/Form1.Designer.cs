@@ -41,21 +41,21 @@
             // 
             // txtLargoTerreno
             // 
-            this.txtLargoTerreno.Location = new System.Drawing.Point(75, 53);
+            this.txtLargoTerreno.Location = new System.Drawing.Point(115, 50);
             this.txtLargoTerreno.Name = "txtLargoTerreno";
             this.txtLargoTerreno.Size = new System.Drawing.Size(100, 20);
             this.txtLargoTerreno.TabIndex = 0;
             // 
             // txtAnchoTerreno
             // 
-            this.txtAnchoTerreno.Location = new System.Drawing.Point(75, 103);
+            this.txtAnchoTerreno.Location = new System.Drawing.Point(115, 100);
             this.txtAnchoTerreno.Name = "txtAnchoTerreno";
             this.txtAnchoTerreno.Size = new System.Drawing.Size(100, 20);
             this.txtAnchoTerreno.TabIndex = 1;
             // 
             // txtRadioTerreno
             // 
-            this.txtRadioTerreno.Location = new System.Drawing.Point(75, 154);
+            this.txtRadioTerreno.Location = new System.Drawing.Point(115, 151);
             this.txtRadioTerreno.Name = "txtRadioTerreno";
             this.txtRadioTerreno.Size = new System.Drawing.Size(100, 20);
             this.txtRadioTerreno.TabIndex = 2;
@@ -68,6 +68,7 @@
             this.btnRectanguloAlambre.TabIndex = 3;
             this.btnRectanguloAlambre.Text = "&Rectangulo de alambre";
             this.btnRectanguloAlambre.UseVisualStyleBackColor = true;
+            this.btnRectanguloAlambre.Click += new System.EventHandler(this.btnRectanguloAlambre_Click);
             // 
             // btbCirculoAlambre
             // 
@@ -77,6 +78,7 @@
             this.btbCirculoAlambre.TabIndex = 4;
             this.btbCirculoAlambre.Text = "&Circulo de alambre";
             this.btbCirculoAlambre.UseVisualStyleBackColor = true;
+            this.btbCirculoAlambre.Click += new System.EventHandler(this.btbCirculoAlambre_Click);
             // 
             // btbMateriales
             // 
@@ -84,13 +86,14 @@
             this.btbMateriales.Name = "btbMateriales";
             this.btbMateriales.Size = new System.Drawing.Size(160, 23);
             this.btbMateriales.TabIndex = 5;
-            this.btbMateriales.Text = "button3";
+            this.btbMateriales.Text = "Materiales Contrapiso";
             this.btbMateriales.UseVisualStyleBackColor = true;
+            this.btbMateriales.Click += new System.EventHandler(this.btbMateriales_Click);
             // 
             // lblLargoTerreno
             // 
             this.lblLargoTerreno.AutoSize = true;
-            this.lblLargoTerreno.Location = new System.Drawing.Point(75, 34);
+            this.lblLargoTerreno.Location = new System.Drawing.Point(116, 34);
             this.lblLargoTerreno.Name = "lblLargoTerreno";
             this.lblLargoTerreno.Size = new System.Drawing.Size(87, 13);
             this.lblLargoTerreno.TabIndex = 6;
@@ -99,7 +102,7 @@
             // lblAnchoTerreno
             // 
             this.lblAnchoTerreno.AutoSize = true;
-            this.lblAnchoTerreno.Location = new System.Drawing.Point(75, 84);
+            this.lblAnchoTerreno.Location = new System.Drawing.Point(112, 84);
             this.lblAnchoTerreno.Name = "lblAnchoTerreno";
             this.lblAnchoTerreno.Size = new System.Drawing.Size(91, 13);
             this.lblAnchoTerreno.TabIndex = 7;
@@ -108,7 +111,7 @@
             // lblRadioTerreno
             // 
             this.lblRadioTerreno.AutoSize = true;
-            this.lblRadioTerreno.Location = new System.Drawing.Point(75, 135);
+            this.lblRadioTerreno.Location = new System.Drawing.Point(112, 135);
             this.lblRadioTerreno.Name = "lblRadioTerreno";
             this.lblRadioTerreno.Size = new System.Drawing.Size(71, 13);
             this.lblRadioTerreno.TabIndex = 8;
@@ -118,7 +121,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 335);
+            this.ClientSize = new System.Drawing.Size(342, 359);
             this.Controls.Add(this.lblRadioTerreno);
             this.Controls.Add(this.lblAnchoTerreno);
             this.Controls.Add(this.lblLargoTerreno);
