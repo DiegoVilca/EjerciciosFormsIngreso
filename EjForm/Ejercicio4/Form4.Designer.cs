@@ -1,6 +1,6 @@
 ﻿namespace Ejercicio4
 {
-    partial class Form4
+    partial class ComboBox
     {
         /// <summary>
         /// Variable del diseñador requerida.
@@ -96,7 +96,7 @@
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 6;
             // 
-            // Form4
+            // ComboBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -108,7 +108,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form4";
+            this.Name = "ComboBox";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -124,6 +124,8 @@
         private System.Windows.Forms.TextBox txtCantLamparas;
         private System.Windows.Forms.TextBox txtPrecioDescuento;
         private System.Windows.Forms.ComboBox comboBox1;
+
+         
     }
 }
 
