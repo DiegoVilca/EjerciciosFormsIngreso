@@ -23,7 +23,7 @@ namespace Ejercicio7
         static Form7()
         {
             numeroRandom = new Random();
-            eleccionMaquina = numeroRandom.Next(1, 3);
+            eleccionMaquina = numeroRandom.Next(1, 4);
             MessageBox.Show(eleccionMaquina.ToString());
         }
 
