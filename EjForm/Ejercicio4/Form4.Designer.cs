@@ -1,6 +1,6 @@
 ﻿namespace Ejercicio4
 {
-    partial class ComboBox
+    partial class Form4
     {
         /// <summary>
         /// Variable del diseñador requerida.

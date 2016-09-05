@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Ejercicio4
 {
-    public partial class ComboBox : Form
+    public partial class Form4 : Form
     {
 
         public double precio = 35;
         public double precioFinal;
 
 
-        public ComboBox()
+        public Form4()
         {
             InitializeComponent();
             this.comboBox1.Items.Add("ArgentinaLuz");
